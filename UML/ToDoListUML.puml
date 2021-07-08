@@ -1,0 +1,58 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class App
+{
+    main()
+    start()
+
+}
+
+class Item
+{
+    description: String
+    dueDate: int
+
+    getItemDesc()
+    getItemDueDate()
+    markComplete()
+
+}
+
+class ListManager
+{
+    title: String
+    listDisplay: TextField
+
+    saveSingleList()
+    saveAllLists()
+    loadList()
+
+    addList()
+    deleteList()
+    editList()
+    addItem()
+    editItemDesc()
+    editItemDueDate()
+    displayAllItems()
+    displayIncompleteItems()
+    displayCompleteItems()
+    isComplete()
+
+    renameListClicked()
+    deleteListClicked()
+    addListClicked()
+    saveListClicked()
+    saveAllClicked()
+    addItemClicked()
+    deleteItemClicked()
+
+
+}
+
+
+javafx.App <|-- ToDoList
+ToDoList -- ListController
+ListManager <|--Item
+
+@enduml
