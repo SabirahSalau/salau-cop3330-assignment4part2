@@ -1,6 +1,8 @@
-ucf/assignments/ToDoList.java
- ucf.assignments.ToDoList
+ucf/assignments/App.java
+ ucf.assignments.App
+ucf/assignments/AppController.java
+ ucf.assignments.AppController
 ucf/assignments/Item.java
  ucf.assignments.Item
-ucf/assignments/ListManager.java
- ucf.assignments.ListManager
+ucf/assignments/ListManagerController.java
+ ucf.assignments.ListManagerController
